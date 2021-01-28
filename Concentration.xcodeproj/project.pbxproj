@@ -13,6 +13,8 @@
 		E7A9569925C076B50069EF38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A9569725C076B50069EF38 /* Main.storyboard */; };
 		E7A9569B25C076BA0069EF38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7A9569A25C076BA0069EF38 /* Assets.xcassets */; };
 		E7A9569E25C076BA0069EF38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A9569C25C076BA0069EF38 /* LaunchScreen.storyboard */; };
+		E7DF088025C326EE0011A66B /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DF087F25C326EE0011A66B /* Concentration.swift */; };
+		E7DF088325C32B1D0011A66B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DF088225C32B1D0011A66B /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E7A9569A25C076BA0069EF38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7A9569D25C076BA0069EF38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7A9569F25C076BA0069EF38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7DF087F25C326EE0011A66B /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		E7DF088225C32B1D0011A66B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		E7A9569025C076B50069EF38 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				E7A9569125C076B50069EF38 /* AppDelegate.swift */,
-				E7A9569325C076B50069EF38 /* SceneDelegate.swift */,
+				E7DF088125C3278F0011A66B /* SupportingFiles */,
 				E7A9569525C076B50069EF38 /* ViewController.swift */,
+				E7DF087F25C326EE0011A66B /* Concentration.swift */,
 				E7A9569725C076B50069EF38 /* Main.storyboard */,
 				E7A9569A25C076BA0069EF38 /* Assets.xcassets */,
 				E7A9569C25C076BA0069EF38 /* LaunchScreen.storyboard */,
-				E7A9569F25C076BA0069EF38 /* Info.plist */,
+				E7DF088225C32B1D0011A66B /* Card.swift */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		E7DF088125C3278F0011A66B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E7A9569125C076B50069EF38 /* AppDelegate.swift */,
+				E7A9569325C076B50069EF38 /* SceneDelegate.swift */,
+				E7A9569F25C076BA0069EF38 /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7A9569625C076B50069EF38 /* ViewController.swift in Sources */,
+				E7DF088025C326EE0011A66B /* Concentration.swift in Sources */,
+				E7DF088325C32B1D0011A66B /* Card.swift in Sources */,
 				E7A9569225C076B50069EF38 /* AppDelegate.swift in Sources */,
 				E7A9569425C076B50069EF38 /* SceneDelegate.swift in Sources */,
 			);
@@ -286,7 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGH5RSM234;
-				INFOPLIST_FILE = Concentration/Info.plist;
+				INFOPLIST_FILE = Concentration/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,7 +321,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGH5RSM234;
-				INFOPLIST_FILE = Concentration/Info.plist;
+				INFOPLIST_FILE = Concentration/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
