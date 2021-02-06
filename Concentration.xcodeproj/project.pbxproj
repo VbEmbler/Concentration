@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E77AF47F25CED11600911472 /* Int + arc4random.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77AF47E25CED11600911472 /* Int + arc4random.swift */; };
 		E7A9569225C076B50069EF38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A9569125C076B50069EF38 /* AppDelegate.swift */; };
 		E7A9569425C076B50069EF38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A9569325C076B50069EF38 /* SceneDelegate.swift */; };
 		E7A9569625C076B50069EF38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A9569525C076B50069EF38 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E77AF47E25CED11600911472 /* Int + arc4random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int + arc4random.swift"; sourceTree = "<group>"; };
 		E7A9568E25C076B50069EF38 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A9569125C076B50069EF38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7A9569325C076B50069EF38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E77AF47D25CED0C500911472 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E77AF47E25CED11600911472 /* Int + arc4random.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E7A9568525C076B50069EF38 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		E7A9569025C076B50069EF38 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
+				E77AF47D25CED0C500911472 /* Extensions */,
 				E7DF088125C3278F0011A66B /* SupportingFiles */,
 				E7A9569525C076B50069EF38 /* ViewController.swift */,
 				E7DF087F25C326EE0011A66B /* Concentration.swift */,
@@ -156,6 +167,7 @@
 				E7DF088025C326EE0011A66B /* Concentration.swift in Sources */,
 				E7DF088325C32B1D0011A66B /* Card.swift in Sources */,
 				E7A9569225C076B50069EF38 /* AppDelegate.swift in Sources */,
+				E77AF47F25CED11600911472 /* Int + arc4random.swift in Sources */,
 				E7A9569425C076B50069EF38 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
