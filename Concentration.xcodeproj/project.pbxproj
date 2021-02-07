@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E77AF47F25CED11600911472 /* Int + arc4random.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77AF47E25CED11600911472 /* Int + arc4random.swift */; };
+		E78D312425D03725000F3530 /* CardTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D312325D03725000F3530 /* CardTheme.swift */; };
 		E7A9569225C076B50069EF38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A9569125C076B50069EF38 /* AppDelegate.swift */; };
 		E7A9569425C076B50069EF38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A9569325C076B50069EF38 /* SceneDelegate.swift */; };
 		E7A9569625C076B50069EF38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A9569525C076B50069EF38 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		E77AF47E25CED11600911472 /* Int + arc4random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int + arc4random.swift"; sourceTree = "<group>"; };
+		E78D312325D03725000F3530 /* CardTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTheme.swift; sourceTree = "<group>"; };
 		E7A9568E25C076B50069EF38 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A9569125C076B50069EF38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7A9569325C076B50069EF38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				E7A9569A25C076BA0069EF38 /* Assets.xcassets */,
 				E7A9569C25C076BA0069EF38 /* LaunchScreen.storyboard */,
 				E7DF088225C32B1D0011A66B /* Card.swift */,
+				E78D312325D03725000F3530 /* CardTheme.swift */,
 			);
 			path = Concentration;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				E7A9569625C076B50069EF38 /* ViewController.swift in Sources */,
 				E7DF088025C326EE0011A66B /* Concentration.swift in Sources */,
 				E7DF088325C32B1D0011A66B /* Card.swift in Sources */,
+				E78D312425D03725000F3530 /* CardTheme.swift in Sources */,
 				E7A9569225C076B50069EF38 /* AppDelegate.swift in Sources */,
 				E77AF47F25CED11600911472 /* Int + arc4random.swift in Sources */,
 				E7A9569425C076B50069EF38 /* SceneDelegate.swift in Sources */,

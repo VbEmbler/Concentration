@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.emoji(for:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "emoji[card.identifier]">
+            </PersistentString>
+            <PersistentString
+               value = "emojiChoices">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.getEmojies():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "emojiChoices">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

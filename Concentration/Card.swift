@@ -6,10 +6,7 @@
 //  Copyright © 2021 Embler. All rights reserved.
 //
 
-import Foundation
-
 struct Card {
-    
     
     //MARK: - Public Properties
     var isFaceUp = false
